@@ -9,7 +9,7 @@ This project is a React-based music player user interface that includes GraphQL 
 
 - Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/Music-Player-UI.git
+git clone https://github.com/nareshkumaralaria/Music-Player-UI.git
 
 ```
 
