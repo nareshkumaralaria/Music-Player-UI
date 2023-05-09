@@ -37,5 +37,7 @@ For live preview you can visit this link
 https://samespace-naresh.netlify.app/
 
 # Screenshots
+![Desktop](https://github.com/nareshkumaralaria/Music-Player-UI/assets/57484597/8862bd24-60a9-4a2c-bf0b-fbf01fb9802f)
+![mobile](https://github.com/nareshkumaralaria/Music-Player-UI/assets/57484597/4387001a-3cc2-4588-8b91-5bb54007f5a8)
 
 
