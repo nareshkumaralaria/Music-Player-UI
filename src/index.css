@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'BasierCircle';
+  src: url('./utilities/fonts/BasierCircle-Regular.woff2') format('woff2'),
+    url('./utilities/fonts/BasierCircle-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'BasierCircleBold';
+  src: url('./utilities/fonts/BasierCircle-Bold.woff2') format('woff2'),
+    url('./utilities/fonts/BasierCircle-Bold.woff') format('woff');
+  font-weight: bold;
+}
+
+:root {
+  --BasierCircle: 'BasierCircle', 'sans-serif';
+  --BasierCircleBold: 'BasierCircleBold', 'sans-serif';
+  --white-1: #FFFFFF;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--BasierCircle);
+  color: var(--white-1);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 0;
+}

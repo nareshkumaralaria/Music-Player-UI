@@ -1,0 +1,155 @@
+.songplayer {
+    max-width: 600px;
+    width: 100%;
+    padding: 48px 12px 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    row-gap: 24px;
+}
+
+.songplayer .info {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 12px;
+    width: 100%;
+}
+
+.songplayer .info .text-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.songplayer .info .text-info h2 {
+    font-size: 28px;
+    font-family: var(--BasierCircleBold);
+    color: var(--white-1);
+}
+
+.songplayer .info .text-info p {
+    font-size: 16px;
+    opacity: 60%;
+}
+
+.songplayer .info img {
+    max-width: 100%;
+    width: 420px;
+    height: 420px;
+    border-radius: 8px;
+}
+
+.songplayer .input-range {
+    height: 4px;
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff4e;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.songplayer .input-range input {
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    max-width: 420px;
+}
+
+.songplayer .input-range .pointer {
+    height: 4px;
+    background-color: var(--white-1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.songplayer .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 420px;
+}
+
+.songplayer .controls button {
+    background: rgba(255, 255, 255, 0.1);
+    width: fit-content;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.songplayer .controls .center-control {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.songplayer .controls .center-control button:first-child,
+.songplayer .controls .center-control button:last-child {
+    background: none;
+}
+
+@media screen and (max-width: 769px) {
+    .songplayer {
+        position: fixed;
+        bottom: 0;
+        background: black;
+        padding: 24px;
+        row-gap: 16px;
+        max-width: 100%;
+    }
+
+    .songplayer .info {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .songplayer .info .text-info h2 {
+        font-size: 18px;
+    }
+
+    .songplayer .info .text-info p {
+        font-size: 14px;
+    }
+
+    .songplayer .info img {
+        width: 48px;
+        height: 48px;
+        border-radius: 4px;
+    }
+
+    .songplayer .input-range {
+        max-width: 100%;
+    }
+
+    .songplayer .input-range input {
+        max-width: 100%;
+    }
+
+    .songplayer .controls {
+        max-width: 100%;
+    }
+
+    .songplayer .controls button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .songplayer .controls button img {
+        width: 12px;
+    }
+
+    .songplayer .controls button.play img {
+        width: 100%;
+    }
+}
